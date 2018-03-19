@@ -12,6 +12,8 @@
 		C83E3BBD205BB3D0000B0DF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C83E3BBB205BB3D0000B0DF8 /* Main.storyboard */; };
 		C83E3BBF205BB3D0000B0DF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C83E3BBE205BB3D0000B0DF8 /* Assets.xcassets */; };
 		C83E3BC2205BB3D0000B0DF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C83E3BC0205BB3D0000B0DF8 /* LaunchScreen.storyboard */; };
+		C876223B205C329A00B08F35 /* DIN Alternate Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C876223A205C329A00B08F35 /* DIN Alternate Bold.ttf */; };
+		C876223D205C35D700B08F35 /* DinCyBd_0.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C876223C205C35D700B08F35 /* DinCyBd_0.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		C83E3BBE205BB3D0000B0DF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C83E3BC1205BB3D0000B0DF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C83E3BC3205BB3D0000B0DF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C876223A205C329A00B08F35 /* DIN Alternate Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DIN Alternate Bold.ttf"; sourceTree = "<group>"; };
+		C876223C205C35D700B08F35 /* DinCyBd_0.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DinCyBd_0.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 		C83E3BB6205BB3D0000B0DF8 /* WeatherApp */ = {
 			isa = PBXGroup;
 			children = (
+				C8762239205C31E200B08F35 /* Fonts */,
 				C83E3BB7205BB3D0000B0DF8 /* AppDelegate.swift */,
 				C83E3BB9205BB3D0000B0DF8 /* ViewController.swift */,
 				C83E3BBB205BB3D0000B0DF8 /* Main.storyboard */,
@@ -62,6 +67,15 @@
 				C83E3BC3205BB3D0000B0DF8 /* Info.plist */,
 			);
 			path = WeatherApp;
+			sourceTree = "<group>";
+		};
+		C8762239205C31E200B08F35 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C876223A205C329A00B08F35 /* DIN Alternate Bold.ttf */,
+				C876223C205C35D700B08F35 /* DinCyBd_0.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,7 +138,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C83E3BC2205BB3D0000B0DF8 /* LaunchScreen.storyboard in Resources */,
+				C876223D205C35D700B08F35 /* DinCyBd_0.ttf in Resources */,
 				C83E3BBF205BB3D0000B0DF8 /* Assets.xcassets in Resources */,
+				C876223B205C329A00B08F35 /* DIN Alternate Bold.ttf in Resources */,
 				C83E3BBD205BB3D0000B0DF8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
